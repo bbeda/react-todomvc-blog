@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "isolatedModules": false,
+        "jsx": "react",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true
+    },
+    "filesGlob": [
+        "**/*.ts",
+        "**/*.tsx",
+        "!node_modules/**"
+    ],
+    "files": [
+        "js/constants.ts",
+        "js/interfaces.d.ts",
+        "js/todoModel.ts",
+        "js/utils.ts",
+        "typings/react/react-global.d.ts",
+        "typings/react/react.d.ts",
+        "typings/tsd.d.ts",
+        "js/footer.tsx"
+    ],
+    "exclude": [],
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}
